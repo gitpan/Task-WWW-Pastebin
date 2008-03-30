@@ -1,0 +1,34 @@
+---
+name: Task-WWW-Pastebin
+version: 0.001
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: a bundle of WWW::Pastebin::* modules
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  WWW::Pastebin::Bot::Pastebot::Create: 0.001
+  WWW::Pastebin::CSSStandardsOrg::Create: 0.001
+  WWW::Pastebin::CSSStandardsOrg::Retrieve: 0.001
+  WWW::Pastebin::NoMorePastingCom::Retrieve: 0.001
+  WWW::Pastebin::PastebinCa::Create: 0.001
+  WWW::Pastebin::PastebinCa::Retrieve: 0.001
+  WWW::Pastebin::PastebinCom::Create: 0.001
+  WWW::Pastebin::PastebinCom::Retrieve: 0.002
+  WWW::Pastebin::PastieCabooSe::Retrieve: 0.001
+  WWW::Pastebin::PhpfiCom::Create: 0.001
+  WWW::Pastebin::PhpfiCom::Retrieve: 0.001
+  WWW::Pastebin::RafbNet::Create: 0.001
+  WWW::Pastebin::RafbNet::Retrieve: 0.001
+  WWW::Pastebin::UbuntuNlOrg::Retrieve: 0.001
+build_requires:
+  Test::More: 0
+provides:
+  Task::WWW::Pastebin:
+    file: lib/Task/WWW/Pastebin.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
