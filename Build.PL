@@ -12,12 +12,12 @@ my $builder = Module::Build->new(
     },
     requires => {
         'WWW::Pastebin::Bot::Pastebot::Create'      => 0.001,
-        'WWW::Pastebin::CSSStandardsOrg::Create'    => 0.001,
-        'WWW::Pastebin::CSSStandardsOrg::Retrieve'  => 0.001,
+        'WWW::Pastebin::Many::Retrieve'             => 0.002,
         'WWW::Pastebin::NoMorePastingCom::Retrieve' => 0.001,
+        'WWW::Pastebin::NoPasteCom::Create'         => 0.0102,
         'WWW::Pastebin::PastebinCa::Create'         => 0.001,
-        'WWW::Pastebin::PastebinCa::Retrieve'       => 0.001,
-        'WWW::Pastebin::PastebinCom::Create'        => 0.001,
+        'WWW::Pastebin::PastebinCa::Retrieve'       => 0.003,
+        'WWW::Pastebin::PastebinCom::Create'        => 0.003,
         'WWW::Pastebin::PastebinCom::Retrieve'      => 0.002,
         'WWW::Pastebin::PastieCabooSe::Retrieve'    => 0.001,
         'WWW::Pastebin::PhpfiCom::Create'           => 0.001,
@@ -30,4 +30,6 @@ my $builder = Module::Build->new(
     create_makefile_pl => 'traditional',
 );
 
-$builder->create_build_script();
+$builder->create_build_script();    
+
+

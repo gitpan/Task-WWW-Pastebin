@@ -2,13 +2,13 @@
 
 use strict;
 use warnings;
-use Test::More tests => 14;
+use Test::More tests => 15;
 
 BEGIN {
     use_ok('WWW::Pastebin::Bot::Pastebot::Create');
-    use_ok('WWW::Pastebin::CSSStandardsOrg::Create');
-    use_ok('WWW::Pastebin::CSSStandardsOrg::Retrieve');
+    use_ok('WWW::Pastebin::Many::Retrieve');
     use_ok('WWW::Pastebin::NoMorePastingCom::Retrieve');
+    use_ok('WWW::Pastebin::NoPasteCom::Create');
     use_ok('WWW::Pastebin::PastebinCa::Create');
     use_ok('WWW::Pastebin::PastebinCa::Retrieve');
     use_ok('WWW::Pastebin::PastebinCom::Create');
@@ -19,6 +19,7 @@ BEGIN {
     use_ok('WWW::Pastebin::RafbNet::Create');
     use_ok('WWW::Pastebin::RafbNet::Retrieve');
     use_ok('WWW::Pastebin::UbuntuNlOrg::Retrieve');
+    use_ok('Task::WWW::Pastebin');
 }
 
 diag( "Testing Task::WWW::Pastebin $Task::WWW::Pastebin::VERSION, Perl $], $^X" );

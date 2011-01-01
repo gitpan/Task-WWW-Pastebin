@@ -3,7 +3,7 @@ package Task::WWW::Pastebin;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 
 1;
@@ -15,25 +15,26 @@ Task::WWW::Pastebin - a bundle of WWW::Pastebin::* modules
 
 =head1 BUNDLE CONTENTS
 
-    WWW-Pastebin-Bot-Pastebot-Create-0.001
-    WWW-Pastebin-CSSStandardsOrg-Create-0.001
-    WWW-Pastebin-CSSStandardsOrg-Retrieve-0.001
-    WWW-Pastebin-NoMorePastingCom-Retrieve-0.001
-    WWW-Pastebin-PastebinCa-Create-0.001
-    WWW-Pastebin-PastebinCa-Retrieve-0.001
-    WWW-Pastebin-PastebinCom-Create-0.001
-    WWW-Pastebin-PastebinCom-Retrieve-0.002
-    WWW-Pastebin-PastieCabooSe-Retrieve-0.001
-    WWW-Pastebin-PhpfiCom-Create-0.001
-    WWW-Pastebin-PhpfiCom-Retrieve-0.001
-    WWW-Pastebin-RafbNet-Create-0.001
-    WWW-Pastebin-RafbNet-Retrieve-0.001
-    WWW-Pastebin-UbuntuNlOrg-Retrieve-0.001
+    'WWW::Pastebin::Bot::Pastebot::Create'      => 0.001,
+    'WWW::Pastebin::Many::Retrieve'             => 0.002,
+    'WWW::Pastebin::NoMorePastingCom::Retrieve' => 0.001,
+    'WWW::Pastebin::NoPasteCom::Create'         => 0.0102,
+    'WWW::Pastebin::PastebinCa::Create'         => 0.001,
+    'WWW::Pastebin::PastebinCa::Retrieve'       => 0.003,
+    'WWW::Pastebin::PastebinCom::Create'        => 0.003,
+    'WWW::Pastebin::PastebinCom::Retrieve'      => 0.002,
+    'WWW::Pastebin::PastieCabooSe::Retrieve'    => 0.001,
+    'WWW::Pastebin::PhpfiCom::Create'           => 0.001,
+    'WWW::Pastebin::PhpfiCom::Retrieve'         => 0.001,
+    'WWW::Pastebin::RafbNet::Create'            => 0.001,
+    'WWW::Pastebin::RafbNet::Retrieve'          => 0.001,
+    'WWW::Pastebin::UbuntuNlOrg::Retrieve'      => 0.001,
 
 =head1 AUTHOR
 
 Zoffix Znet, C<< <zoffix at cpan.org> >>
-(L<http://zoffix.com>, L<http://haslayout.net>)
+(L<http://zoffix.com>, L<http://haslayout.net>,
+L<http://mind-power-book.com>)
 
 =head1 BUGS
 
